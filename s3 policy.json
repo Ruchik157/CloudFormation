@@ -5,13 +5,14 @@
            "Effect": "Allow",
            "Action": ["s3:ListBucket"],
            "Principal": {"AWS": "*"},
-           "Resource": "arn:aws:s3:::whizlabs0836"
+           "Resource": "arn:aws:s3:::"
        },
        {
            "Effect": "Allow",
            "Action": ["s3:GetObject", "s3:PutObject"],
            "Principal": {"AWS": "*"},
-           "Resource": "arn:aws:s3:::whizlabs0836/*"
+           "Resource": "arn:aws:s3:::/*"
        }
    ]
 }
+
